@@ -261,16 +261,16 @@ This project applies practical SQL skills used in data analytics:
 
 - `SELECT`, `WHERE`, `ORDER BY`, `LIMIT`
 - `GROUP BY` and `HAVING`
-- Inner and outer joins
-- Subqueries
+- `SQL joins`
+- `Subqueries`
 - CTEs (`WITH`)
 - `CASE` expressions
 - Aggregations: `SUM`, `AVG`, `COUNT`, `COUNT(DISTINCT ...)`
-- Date and numeric functions
+- `Date and numeric functions`
 - Window functions: `LAG`, `ROW_NUMBER`
-- Percentage and revenue-share calculations
+- `Percentage and revenue-share` calculations
 - Data validation and cleaning
-- Primary keys, foreign keys and indexes
+- `Primary keys`, `foreign keys` and `indexes`
 
 ---
 
