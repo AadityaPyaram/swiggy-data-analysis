@@ -26,6 +26,8 @@ The emphasis is on analytical SQL rather than simply demonstrating syntax. Queri
 
 The **Swiggy Sales and Ratings Dataset** provides a view of performance, customer behavior and sales patterns within a food-delivery environment. The data contains information on customers, orders, restaurants, menu items and ratings, making it possible to study revenue trends, customer segments, restaurant performance and market patterns.
 
+**Dataset Source:** [Kaggle – Sales Orders Zomato Data](https://www.kaggle.com/datasets/shermandata/sales-orders-zomato-data)
+
 For this project, the working schema contains six source tables:
 
 | Table | Purpose |
