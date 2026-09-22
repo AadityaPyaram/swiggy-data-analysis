@@ -118,7 +118,7 @@ Key observations from the dataset:
 - The January pattern is not consistent enough across all years to claim a strong seasonal effect from this dataset alone.
 
 <p align="center">
-  <img src="assets/mom.png" alt="Monthly revenue and month-over-month analysis" width="900">
+  <img src="assets/mom.png" alt="Monthly revenue and month-over-month analysis" width="500">
 </p>
 
 ---
@@ -130,11 +130,11 @@ The top 10 restaurants by recorded sales generated a combined **₹136,446,661**
 The rating analysis also highlights a major data-quality limitation: approximately **86,151 of 148,540 restaurants (~58%) have NULL ratings**. Because missing ratings dominate the restaurant population, the dataset does not support a clean conclusion that higher ratings directly correspond to higher revenue.
 
 <p align="center">
-  <img src="assets/restaurant_rating1.png" alt="Top restaurants by revenue with ratings" width="900">
+  <img src="assets/restaurant_rating1.png" alt="Top restaurants by revenue with ratings" width="500">
 </p>
 
 <p align="center">
-  <img src="assets/restaurant_rating2.png" alt="Revenue by restaurant rating category" width="700">
+  <img src="assets/restaurant_rating2.png" alt="Revenue by restaurant rating category" width="500">
 </p>
 
 ---
@@ -150,7 +150,7 @@ The sales distribution is heavily skewed toward larger order values.
 This indicates that the revenue profile is dominated by high-value transactions in this dataset.
 
 <p align="center">
-  <img src="assets/distribution.png" alt="Order value distribution by sales range" width="700">
+  <img src="assets/distribution.png" alt="Order value distribution by sales range" width="500">
 </p>
 
 ---
@@ -164,11 +164,11 @@ Customer revenue was segmented using:
 The top three revenue-generating demographic combinations are concentrated among **22–23-year-old students**, and together they contribute approximately **23.10% of total revenue**.
 
 <p align="center">
-  <img src="assets/customers_segment1.png" alt="Customer segments ranked by revenue" width="900">
+  <img src="assets/customers_segment1.png" alt="Customer segments ranked by revenue" width="500">
 </p>
 
 <p align="center">
-  <img src="assets/customers_segment2.png" alt="Combined revenue contribution of the top three customer segments" width="700">
+  <img src="assets/customers_segment2.png" alt="Combined revenue contribution of the top three customer segments" width="300">
 </p>
 
 ---
@@ -182,7 +182,7 @@ The analysis classifies users based on their order frequency and compares the re
 A useful caution is that the `COUNT(*)` output in the original query represents **orders in each group**, not the number of distinct customers. The revenue split itself is still valid for the stated classification.
 
 <p align="center">
-  <img src="assets/repeat_customers.png" alt="Repeat versus one-time customer revenue" width="700">
+  <img src="assets/repeat_customers.png" alt="Repeat versus one-time customer revenue" width="500">
 </p>
 
 ---
@@ -194,11 +194,11 @@ The highest-spending customers were identified by aggregating sales at the `user
 The top 10 customers together contribute approximately **1.38% of total revenue**.
 
 <p align="center">
-  <img src="assets/top_spenders1.png" alt="Top customers by revenue" width="900">
+  <img src="assets/top_spenders1.png" alt="Top customers by revenue" width="500">
 </p>
 
 <p align="center">
-  <img src="assets/top_spenders2.png" alt="Revenue contribution from top 10 customers" width="500">
+  <img src="assets/top_spenders2.png" alt="Revenue contribution from top 10 customers" width="300">
 </p>
 
 ---
@@ -216,7 +216,7 @@ A broader concentration analysis was performed using customer-level revenue and 
 This shows that revenue is substantially more concentrated when looking beyond only the top 10 customers.
 
 <p align="center">
-  <img src="assets/top%_customers.png" alt="Top 1 percent, 5 percent and 10 percent customer revenue concentration" width="650">
+  <img src="assets/top%_customers.png" alt="Top 1 percent, 5 percent and 10 percent customer revenue concentration" width="500">
 </p>
 
 ---
@@ -228,7 +228,7 @@ The city analysis compares restaurant supply with recorded order volume.
 The highest-volume cities in the output also have the highest restaurant counts, with the displayed `orders_per_restaurant` value around **1.0**. This is primarily a limitation of the dataset structure rather than a robust market-demand measure, so the result should not be interpreted as proof that those cities have equal demand per restaurant.
 
 <p align="center">
-  <img src="assets/cities_restaurants.png" alt="City restaurant counts and order volume" width="850">
+  <img src="assets/cities_restaurants.png" alt="City restaurant counts and order volume" width="500">
 </p>
 
 ---
