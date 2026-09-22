@@ -82,7 +82,7 @@ The `orders_type` table is intentionally kept separate in the analysis because t
 ## 4. Database Schema (ERD)
 
 <p align="center">
-  <img src="assets/erd.png" alt="Swiggy sales, restaurant performance and customer analysis database schema" width="900">
+  <img src="assets/erd.png" alt="Swiggy sales, restaurant performance and customer analysis database schema" width="700">
 </p>
 
 The ERD shows the verified primary/foreign-key relationships used throughout the analysis. `orders` is the central transactional table, while `users` and `restaurant` provide customer and restaurant context. `menu` connects restaurants to food items and prices.
@@ -216,7 +216,7 @@ A broader concentration analysis was performed using customer-level revenue and 
 This shows that revenue is substantially more concentrated when looking beyond only the top 10 customers.
 
 <p align="center">
-  <img src="assets/top%_customers.png" alt="Top 1 percent, 5 percent and 10 percent customer revenue concentration" width="500">
+  <img src="assets/top_percent_customers.png" alt="Top 1 percent, 5 percent and 10 percent customer revenue concentration" width="500">
 </p>
 
 ---
